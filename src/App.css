@@ -1,0 +1,95 @@
+.required {
+  margin-left: 5px;
+}
+
+.error-message {
+  color: red;
+    position: absolute;
+    font-size: 12px;
+    top: 10px;
+}
+.p_relative{
+  position: relative;
+}
+.user_box{
+  width: 1000px;
+  margin: 0 auto;
+}
+.user_form{
+  background: #ddd;
+  padding: 20px 20px;
+}
+.form_group{
+  margin:0 0 20px;
+}
+.label_name{
+  min-width: 120px;
+  display: inline-block;
+}
+.btn_wrp{
+  margin:30px 0 0;
+}
+.btn_wrp button{
+  color: #333;
+    background-color: #ffffff;
+    border-color: #adadad;
+    padding: 6px 14px;
+}
+.btn_wrp .btn-success{
+  margin-right: 10px;
+}
+.add_row{
+  display: flex;
+    gap: 20px;
+    margin: 0 0 20px;
+}
+.add_row label{
+  width: 20%;
+  position: relative;
+}
+.add_row label .error-message{
+  top:30px;
+}
+.add_row label input, .add_row label select{
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+.user_view p span{
+  width: 140px;
+  display: inline-block;
+}
+.product_wrp{
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  padding: 20px 20px;
+  max-width: 900px;
+}
+.product-details{
+  display:flex;
+  gap:20px;
+}
+.product-details img{
+  width:330px;
+}
+.hdr{
+  display:flex;
+  justify-content:space-between;
+}
+.hdr h2{
+  margin:0 0 0;
+}
+.product-card{
+  border-bottom:1px solid #ddd;
+  padding:0 0 30px;
+}
+.pagination{
+  padding: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
